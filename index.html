@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kara-TheVoiceAssistant</title>
+    <link href=" rel="stylesheet">
+    <link rel="stylesheet" href="public/cssbin/index.css">
+    
+</head>
+
+<body>
+    <header class="text-gray-400 bg-gray-900 body-font" id="header">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+            <object class="svgClass" type="image/svg+xml" data="public/logo.svg" width="50px"></object>
+            <span class="ml-3 text-xl" id="logotext">Kara</span>
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-lg justify-center" id="link">
+            <a class="mr-5 hover:text-white" id="f" href="#about">About</a>
+            <a class="mr-5 hover:text-white" id="s" href="#team">Team</a>
+            <a class="mr-5 hover:text-white" id="t">Download</a>
+          </nav>
+          <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-green-500 text-gray-50 rounded text-base mt-4 md:mt-0" id="dark">Light Mode
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </header>
+      <hr></hr>
+
+      <section class="text-gray-400 bg-gray-800 body-font" id="about">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
+            <img class="object-cover object-center rounded" alt="hero" src="public/python.png" id="python">
+          </div>
+          <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <h1 class="title-font text-4xl leading-relaxed sm: mb-4 font-bold text-white" id="abouthead">Kara-TheVoiceAssistant
+            </h1>
+            <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+            <div class="flex justify-center">
+              <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              onclick=window.open("https://github.com/aary114/Kara-TheVoiceAssistant")>Github</button>
+              <button class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="text-gray-400 bg-gray-900 body-font" id="team">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white" id="teamhead">Our Team</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p>
+          </div>
+          <div class="flex flex-wrap -m-2">
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full" id="teamcontainer1">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">Aryan Parmar</h2>
+                  <p class="text-gray-600">UI Designer</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full" id="teamcontainer2">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/84x84">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">Priyanshu Yadav</h2>
+                  <p class="text-gray-600">CTO</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full" id="teamcontainer3">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/88x88">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">XYZ</h2>
+                  <p class="text-gray-600">Founder</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <div class="text-gray-400 bg-gray-800 body-font" id="footer">
+        
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <p class="text-xl text-gray-100" id="footertext">Kara</p>
+          <span class="text-sm text-gray-400 sm:ml-auto sm:mt-0 mt-4 justify-center" id="footercopy">Copyrights @2020-2030</span>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            <a class="text-gray-400" href="https://github.com/aary114">
+              <object class="github" type="image/svg+xml" data="public/github.svg" class="w-5 h-5" ></object>
+            </a>
+          </span>
+        </div>
+      </div>
+
+      <script src="public/jsbin/index.js"></script>
+</body>
+
+
+</html>
